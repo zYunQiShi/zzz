@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body class="index-body">
+    <!-- 头部 -->
+    <header class="common_header">
+        <div class="head_top">
+            <div class="left">
+                <img class="logo" src="./images/common/LOGO.png" alt="">
+                <span class="minBtns">
+                    <a class="hrefA" href="">公司123</a>
+                    <a class="hrefA" href="">产品<img class="icon" src="./images/common/V.png" alt=""></a>
+                    <a class="hrefA" href="">服务</a>
+                </span>
+            </div>
+            <div class="right">
+                <button class="gzBtn">关注123</button>
+            </div>
+        </div>
+        <div class="head_bottom">
+
+        </div>
+    </header>
+    <!-- 主体内容 -->
+    <div class="content">
+        <div class="widthMain">
+            
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="widthMain">
+            <!-- 底部内容 -->
+        </div>
+    </footer>
+    <script src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+    <script>
+        $("#footer").html($(".widthMain").width())
+    </script>
+</body>
+</html>
